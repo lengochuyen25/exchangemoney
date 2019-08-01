@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <label>Amount</label><br>
+    <input name="amount" type="number" id="amt"><br>
+
+    <label>From Currency</label><br>
+    <select id="fromcurrency">
+        <option value="1">Vietnam(VND)</option>
+        <option value ="22000">US($)</option>
+        <option value ="212">Japan(¥)</option>
+    </select><br>
+
+    <label>To Currency</label><br>
+    <select id="tocurrency">
+        <option value="1">Vietnam(VND)</option>
+        <option value="22000">US($)</option>
+        <option value="212">Japan(¥)</option>
+    </select>
+</form>
+<button type="button" onclick="exchangemoney();">Convert</button>
+<p id="result"></p>
+<script src="java.js"></script>
+</body>
+</html>
